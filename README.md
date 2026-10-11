@@ -1,5 +1,8 @@
 # Reclaimine: a self-improving lost-item describer (c0mpiled-15, Luminal + Transpose track, 1A + 1B)
 
+**▶ Watch the 90-second demo: https://eeeabrar-droid.github.io/reclaimine-c0mpiled/** (file: `video/reclaimine_v4_team_voice.mp4`)
+
+
 **Why it matters (1B: YC RFS, AI-powered consumer products for 1 billion people).** Every venue with a lost-and-found (airports, stadiums, concerts, transit) faces the same matching problem, and most items never get home: Brussels Airport logged 31,861 lost items in 2025 and returned 23% ([source](https://airlinergs.com/brussels-airport-handles-nearly-32000-lost-items-in-2025/)); Dubai's airports found 169,462 items in 2017 and returned about 30% ([source](https://www.thenationalnews.com/uae/more-than-160-000-lost-items-were-discovered-at-dubai-airports-last-year-1.714647)); Bengaluru returned 27.85% of 20,413 ([source](https://www.thenewsminute.com/article/lost-and-found-items-bengaluru-airport-double-seven-years-85301)). Venues already pay for lost-and-found software (Boomerang raised $7.7M serving stadiums and airports, [source](https://pulse2.com/boomerang-4-9-million-funding/)); Reclaimine's angle is verifying ownership through details only the owner knows.
 
 **Problem.** Lost-and-found claims are verified by details only the real owner knows. A vision model has to describe a found item well enough to match those details: the scratch, the sticker, the handwritten name. It must also never invent one, because a hallucinated detail can hand a wallet to the wrong person.
