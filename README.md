@@ -28,12 +28,14 @@ Scores are net % of max (gains minus penalties). Each prompt/pipeline is a mean 
 
 **Honest caveats.** Run-to-run noise is large (the same prompt spans ~15 points), so every number is a mean over 5 runs with item-level CIs. Held-out is small (6 items). Dataset: `dataset/tags.json` (frozen tags, splits, known-false claims) + `dataset/photos_neutral/` (1800x1350, EXIF-free). Items are the author's own household items used as stand-ins for lost property.
 
+**Provenance (what was built when).** Before the event (night of Oct 10-11): the dataset (photos and frozen tags) was prepared, and a throwaway spike on OpenRouter shaped the judge design (per-tag verdicts with mechanically verified quotes, penalties only when both judges agree) and found that turning describer reasoning off helps. At the event (Oct 11): all code in this repo (prompt-level harness, pipeline-level search, analysis), the move to Luminal, every run and every result above.
+
 ## Run
 ```
 export OPENROUTER_API_KEY=...   # GLM judge
 export LUMINAL_API_KEY=...      # https://flash.luminal.cloud/v1
-DEEPSEEK_PROVIDER=luminal DATASET_DIR=/path/to/dataset python3 harness.py --rounds 5    # prompt-level search
-DEEPSEEK_PROVIDER=luminal DATASET_DIR=/path/to/dataset python3 harness2.py --rounds 3   # pipeline-level search
+DEEPSEEK_PROVIDER=luminal python3 harness.py --rounds 5    # prompt-level search (reads ./dataset by default; DATASET_DIR overrides)
+DEEPSEEK_PROVIDER=luminal python3 harness2.py --rounds 3   # pipeline-level search
 python3 analyze.py runs/<run_dir>                                                       # overview + held-out by tier
 ```
 `dataset/tags.json` format: `{"items":[{"id","split":"dev|held_out","photos_neutral":[...],"tags":[{"text","tier","weight"}],"known_false":[...],"inferences":[...]}]}`.
