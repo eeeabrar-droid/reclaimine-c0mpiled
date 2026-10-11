@@ -24,7 +24,7 @@ The split is by item: 10 dev items for optimization and 6 held-out items never s
 
 Scores are net % of max (gains minus penalties). Each prompt/pipeline is a mean of 5 runs; CIs are paired, item-level bootstrap. Feedback guides later rounds through a lessons log (each proposer's hypothesis, whether it was supported, and the delta), and proposers only ever see scores and tier-miss counts.
 
-**Honest caveats.** Run-to-run noise is large (the same prompt spans ~15 points), so every number is a mean over 5 runs with item-level CIs. Held-out is small. Photos and tags are private (household items), so they are not published.
+**Honest caveats.** Run-to-run noise is large (the same prompt spans ~15 points), so every number is a mean over 5 runs with item-level CIs. Held-out is small (6 items). Dataset: `dataset/tags.json` (frozen tags, splits, known-false claims) + `dataset/photos_neutral/` (1800x1350, EXIF-free). Items are the author's own household items used as stand-ins for lost property.
 
 ## Run
 ```

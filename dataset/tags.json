@@ -1,0 +1,1295 @@
+{
+ "version": "v1.3",
+ "weights": {
+  "general": 1,
+  "distinguishable": 2,
+  "extreme": 4
+ },
+ "items": [
+  {
+   "id": "01",
+   "name": "Calculator #2",
+   "slug": "Calculator_2",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "scientific calculator"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "Casio, model fx-991ES PLUS (printed on face)"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "silver/grey face, dark navy cover and back"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "English labels"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "scratched and dirty back surface"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "battery cover missing; coin cell visible in open compartment"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "dual power (solar panel + battery); \"TWO WAY POWER\" printed on face"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "scientific constants + unit conversion tables printed on inside of cover"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "HIS",
+     "text": "handwritten \"SHILA\" in marker on the inner cover"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "FIX",
+     "text": "handwritten \"SHILA\" appears twice on the inner cover: in block capitals and in cursive"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "ADD",
+     "text": "a third handwritten word beginning with \"M\" on the inner cover"
+    }
+   ],
+   "inferences": [],
+   "known_false": [
+    "brand new / unused",
+    "never written on",
+    "Texas Instruments"
+   ],
+   "split": "held_out",
+   "photos": [
+    "photos/Calculator_2/Calculator_2__1.jpg",
+    "photos/Calculator_2/Calculator_2__2.jpg",
+    "photos/Calculator_2/Calculator_2__3.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_01/p1.jpg",
+    "photos_neutral/item_01/p2.jpg",
+    "photos_neutral/item_01/p3.jpg"
+   ]
+  },
+  {
+   "id": "02",
+   "name": "Calculator 01 (China)",
+   "slug": "Calculator_01_China",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "scientific calculator"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "Casio"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "FIX",
+     "text": "model is fx-991CN X (CLASSWIZ), not fx-991CN"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "FIX",
+     "text": "light blue-grey (periwinkle) face and back"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "dusty"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "Chinese labels alongside English (key legends like 开机, 撤消, 单位换算)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "dual power, solar + battery (LR44)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "small gold/yellow hologram sticker next to solar panel"
+    }
+   ],
+   "inferences": [
+    "not recently used",
+    "owner likely Chinese national, student or engineer"
+   ],
+   "known_false": [
+    "heavily used or worn out",
+    "Japanese-market model",
+    "battery missing"
+   ],
+   "split": "dev",
+   "photos": [
+    "photos/Calculator_01_China/Calculator_01_China__1.jpg",
+    "photos/Calculator_01_China/Calculator_01_China__2.jpg",
+    "photos/Calculator_01_China/Calculator_01_China__3.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_02/p1.jpg",
+    "photos_neutral/item_02/p2.jpg",
+    "photos_neutral/item_02/p3.jpg"
+   ]
+  },
+  {
+   "id": "03",
+   "name": "Charging adapter + cable 01 (black)",
+   "slug": "Changing_adapter_and_cable_01",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "USB charger adapter and cable"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "USB-C connectors on both ends of cable"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "both black"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "\"Super Fast Charging\" printed on adapter"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "long cable (several feet)"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "HIS",
+     "text": "cable is tied in a bundle with a black twist-tie/tie wrap"
+    }
+   ],
+   "inferences": [],
+   "known_false": [
+    "Apple original charger",
+    "Lightning cable",
+    "cable is short"
+   ],
+   "split": "dev",
+   "photos": [
+    "photos/Changing_adapter_and_cable_01/Changing_adapter_and_cable_01__1.jpg",
+    "photos/Changing_adapter_and_cable_01/Changing_adapter_and_cable_01__2.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_03/p1.jpg",
+    "photos_neutral/item_03/p2.jpg"
+   ]
+  },
+  {
+   "id": "04",
+   "name": "Charging adapter + cable 02 (white)",
+   "slug": "Changing_adapter_and_cable_02",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "charger adapter and cable"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "white"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "cable has Lightning end and USB-C end"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "Lightning connector (Apple-style)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "Lightning connector: for an older-generation Apple device (iPhone 14 or earlier, iPad, AirPods)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "FIX",
+     "text": "cable about 3 ft long"
+    }
+   ],
+   "inferences": [
+    "owner's phone is an iPhone 14 or older"
+   ],
+   "known_false": [
+    "USB-C on both ends",
+    "fast charger / PD brick",
+    "new in packaging"
+   ],
+   "split": "held_out",
+   "photos": [
+    "photos/Changing_adapter_and_cable_02/Changing_adapter_and_cable_02__1.jpg",
+    "photos/Changing_adapter_and_cable_02/Changing_adapter_and_cable_02__2.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_04/p1.jpg",
+    "photos_neutral/item_04/p2.jpg"
+   ]
+  },
+  {
+   "id": "05",
+   "name": "Digital Wrist Watch",
+   "slug": "Digital_Wrist_Watch",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "smartwatch / digital wrist watch"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "black display, beige/cream silicone strap"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "ADD",
+     "text": "square display, silver/grey aluminum case"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "FIX",
+     "text": "\"TOZO\" embossed on strap buckle (brand is readable)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "heart-rate sensor with charging contacts on the back"
+    }
+   ],
+   "inferences": [],
+   "known_false": [
+    "Apple Watch",
+    "brand Fitbit/Garmin/Samsung",
+    "leather strap"
+   ],
+   "split": "held_out",
+   "photos": [
+    "photos/Digital_Wrist_Watch/Digital_Wrist_Watch__1.jpg",
+    "photos/Digital_Wrist_Watch/Digital_Wrist_Watch__2.jpg",
+    "photos/Digital_Wrist_Watch/Digital_Wrist_Watch__3.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_05/p1.jpg",
+    "photos_neutral/item_05/p2.jpg",
+    "photos_neutral/item_05/p3.jpg"
+   ]
+  },
+  {
+   "id": "06",
+   "name": "Earphone",
+   "slug": "Earphone",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "wireless earbuds with charging case"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "beige / off-white (sage-cream)"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "ADD",
+     "text": "rounded pebble-shaped case with hinged lid"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "JLab \"Go Pop ANC\" (brand and model printed inside the case lid)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "FIX",
+     "text": "brand \"JLab\" is written inside the lid and as a logo on the earbuds"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "FIX",
+     "text": "USB-C is a built-in retractable connector on the case body, not a separate cable"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "JLab logo on earbud faces and on the connector tab"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "looks new, no scratches"
+    }
+   ],
+   "inferences": [],
+   "known_false": [
+    "Apple AirPods",
+    "wired earphones",
+    "has a separate USB cable"
+   ],
+   "split": "dev",
+   "photos": [
+    "photos/Earphone/Earphone__1.jpg",
+    "photos/Earphone/Earphone__2.jpg",
+    "photos/Earphone/Earphone__3.jpg",
+    "photos/Earphone/Earphone__4.jpg",
+    "photos/Earphone/Earphone__5.jpg",
+    "photos/Earphone/Earphone__6.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_06/p1.jpg",
+    "photos_neutral/item_06/p2.jpg",
+    "photos_neutral/item_06/p3.jpg",
+    "photos_neutral/item_06/p4.jpg",
+    "photos_neutral/item_06/p5.jpg",
+    "photos_neutral/item_06/p6.jpg"
+   ]
+  },
+  {
+   "id": "07",
+   "name": "Flash Drive",
+   "slug": "Flash_Drive",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "USB flash drive / pen drive"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "USB-A (gold connector, blue inner = USB 3.0)"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "black body with purple slider"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "32GB printed on side"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "slide-type switch that extends/retracts the connector"
+    }
+   ],
+   "inferences": [],
+   "known_false": [
+    "128GB / 64GB",
+    "USB-C connector",
+    "branded SanDisk/Kingston"
+   ],
+   "split": "dev",
+   "photos": [
+    "photos/Flash_Drive/Flash_Drive__1.jpg",
+    "photos/Flash_Drive/Flash_Drive__2.jpg",
+    "photos/Flash_Drive/Flash_Drive__3.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_07/p1.jpg",
+    "photos_neutral/item_07/p2.jpg",
+    "photos_neutral/item_07/p3.jpg"
+   ]
+  },
+  {
+   "id": "08",
+   "name": "Hair Clip (his \"Heir Clip\")",
+   "slug": "Heir_Clip",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "hair clip, claw type"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "white"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "medium size"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "printed pattern of small pink flowers and green leaves on the top"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "gold/brass-colored spring at the hinge"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "two shades of pink in the flowers (dark pink, pale pink)"
+    }
+   ],
+   "inferences": [],
+   "known_false": [
+    "metal or plastic-black",
+    "used by a child (toy clip)",
+    "has a ribbon"
+   ],
+   "split": "held_out",
+   "photos": [
+    "photos/Heir_Clip/Heir_Clip__1.jpg",
+    "photos/Heir_Clip/Heir_Clip__2.jpg",
+    "photos/Heir_Clip/Heir_Clip__3.jpg",
+    "photos/Heir_Clip/Heir_Clip__4.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_08/p1.jpg",
+    "photos_neutral/item_08/p2.jpg",
+    "photos_neutral/item_08/p3.jpg",
+    "photos_neutral/item_08/p4.jpg"
+   ]
+  },
+  {
+   "id": "09",
+   "name": "Keys and FOB",
+   "slug": "Keys_and_FOB",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "bunch of keys with a car key fob and small cards on split rings"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "fob is black plastic"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "keys are brass/gold and silver colored"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "Subaru logo on fob"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "fob buttons: unlock, lock, trunk (marked \"HOLD\"), red panic button"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "two key-shaped mini screwdrivers (flathead + Phillips)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "at least one large key stamped \"DO NOT DUPLICATE\" (BEST brand)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "keytag cards: CVS ExtraCare, Weis Markets, Giant (red)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "3 full-size keys plus 2 small keys"
+    }
+   ],
+   "inferences": [
+    "owner has CVS, Weis, Giant membership",
+    "keys are not personal"
+   ],
+   "known_false": [
+    "Toyota/Honda fob",
+    "includes a house-alarm tag",
+    "has a bottle opener"
+   ],
+   "split": "held_out",
+   "photos": [
+    "photos/Keys_and_FOB/Keys_and_FOB__1.jpg",
+    "photos/Keys_and_FOB/Keys_and_FOB__2.jpg",
+    "photos/Keys_and_FOB/Keys_and_FOB__3.jpg",
+    "photos/Keys_and_FOB/Keys_and_FOB__4.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_09/p1.jpg",
+    "photos_neutral/item_09/p2.jpg",
+    "photos_neutral/item_09/p3.jpg",
+    "photos_neutral/item_09/p4.jpg"
+   ]
+  },
+  {
+   "id": "10",
+   "name": "Men's Wallet",
+   "slug": "Mens_Wallet",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "men's bifold wallet"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "tan / orange-brown leather"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "shows signs of regular use"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "FIX",
+     "text": "embossed \"FCB\" crest with \"BARCELONA\" in capitals on the front (FC Barcelona)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "logo and letters darker brown than the leather"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "visible $20 note and several cards inside"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "zipper pocket in the middle when opened"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "silver zipper pull (teardrop shape)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "decorative stitching along edges"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "coin/flap pocket on left, ID window with black mesh on right"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "ADD",
+     "text": "a creased scratch line across lower-left of back"
+    }
+   ],
+   "inferences": [],
+   "known_false": [
+    "black leather",
+    "contains a credit card with a name visible",
+    "trifold"
+   ],
+   "split": "dev",
+   "photos": [
+    "photos/Mens_Wallet/Mens_Wallet__1.jpg",
+    "photos/Mens_Wallet/Mens_Wallet__2.jpg",
+    "photos/Mens_Wallet/Mens_Wallet__3.jpg",
+    "photos/Mens_Wallet/Mens_Wallet__4.jpg",
+    "photos/Mens_Wallet/Mens_Wallet__5.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_10/p1.jpg",
+    "photos_neutral/item_10/p2.jpg",
+    "photos_neutral/item_10/p3.jpg",
+    "photos_neutral/item_10/p4.jpg",
+    "photos_neutral/item_10/p5.jpg"
+   ]
+  },
+  {
+   "id": "11",
+   "name": "Metal Tweezer",
+   "slug": "Metal_Tweezer",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "metal tweezer, silver / stainless steel"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "looks new, no visible scratches or damage"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "\"PELCO\" brand, with logo"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "\"Swiss Made\" printed on it"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "wafer-handling tweezer: wide flat blade tips (purpose is an inference, but the blade shape is visible)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "8 notched teeth on one tip (the count marks the 8-inch wafer size)"
+    }
+   ],
+   "inferences": [
+    "8 inch wafer tweezer",
+    "owner is handy / scientifically technical"
+   ],
+   "known_false": [
+    "plastic or ESD-coated",
+    "sold as a hobby/eyebrow tweezer",
+    "6-inch size"
+   ],
+   "split": "dev",
+   "photos": [
+    "photos/Metal_Tweezer/Metal_Tweezer__1.jpg",
+    "photos/Metal_Tweezer/Metal_Tweezer__2.jpg",
+    "photos/Metal_Tweezer/Metal_Tweezer__3.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_11/p1.jpg",
+    "photos_neutral/item_11/p2.jpg",
+    "photos_neutral/item_11/p3.jpg"
+   ]
+  },
+  {
+   "id": "12",
+   "name": "Phone",
+   "slug": "Phone",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "smartphone with case"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "display on, showing a purple/blue gradient lock screen"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "FIX",
+     "text": "case is mint / seafoam green with dark olive-green grip panels"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "three rear cameras"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "no visible damage"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "iPhone (Dynamic Island, three-lens module; no Apple logo visible under the case)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "carrier \"Mint\" shown on lock screen (visible, so scoreable as visible text)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "rugged two-tone case with olive bumpers top and bottom"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "black metal rings fitted around all three camera lenses"
+    }
+   ],
+   "inferences": [],
+   "known_false": [
+    "Android/Samsung",
+    "screen cracked",
+    "case is transparent/black"
+   ],
+   "split": "dev",
+   "photos": [
+    "photos/Phone/Phone__1.jpg",
+    "photos/Phone/Phone__2.jpg",
+    "photos/Phone/Phone__3.jpg",
+    "photos/Phone/Phone__4.jpg",
+    "photos/Phone/Phone__5.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_12/p1.jpg",
+    "photos_neutral/item_12/p2.jpg",
+    "photos_neutral/item_12/p3.jpg",
+    "photos_neutral/item_12/p4.jpg",
+    "photos_neutral/item_12/p5.jpg"
+   ]
+  },
+  {
+   "id": "13",
+   "name": "Stapler",
+   "slug": "Stapler",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "stapler"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "off-white / cream body with black base"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "Penn State logo and \"PennState\" in blue on top"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "\"Bates\" brand name; black rubber base with a honeycomb pattern"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "made in U.S.A. (printed on the base)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "FIX",
+     "text": "black rubber base with a honeycomb/hexagon pattern"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "FIX",
+     "text": "\"Bates\" also printed in red at the end of the top cover"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "Nittany Lion logo with a worn, flaking print"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "FIX",
+     "text": "dark speckles on the body (no rust)"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "HIS",
+     "text": "Penn State logo and wordmark partly rubbed off, with ink flecks around the logo"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "HIS",
+     "text": "some staples inside the magazine, not fully loaded"
+    }
+   ],
+   "inferences": [
+    "looks longer and heavier than most staplers"
+   ],
+   "known_false": [
+    "electric",
+    "completely empty",
+    "fully loaded",
+    "brand Swingline"
+   ],
+   "split": "held_out",
+   "photos": [
+    "photos/Stapler/Stapler__1.jpg",
+    "photos/Stapler/Stapler__2.jpg",
+    "photos/Stapler/Stapler__3.jpg",
+    "photos/Stapler/Stapler__4.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_13/p1.jpg",
+    "photos_neutral/item_13/p2.jpg",
+    "photos_neutral/item_13/p3.jpg",
+    "photos_neutral/item_13/p4.jpg"
+   ]
+  },
+  {
+   "id": "14",
+   "name": "Sunglasses (fit-over)",
+   "slug": "Sunglasses",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "sunglasses / eyewear, adult size"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "yellow-tinted lenses, black frame"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "frame wraps fully around each lens (full rim)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "solid side shields that also carry yellow lens panels (visible in the side view)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "wraparound fit-over shape, wide enough to sit over regular glasses"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "looks new, no visible wear"
+    }
+   ],
+   "inferences": [
+    "fit-over type"
+   ],
+   "known_false": [
+    "polarized mirror lens",
+    "prescription glasses",
+    "scratched"
+   ],
+   "split": "dev",
+   "photos": [
+    "photos/Sunglasses/Sunglasses__1.jpg",
+    "photos/Sunglasses/Sunglasses__2.jpg",
+    "photos/Sunglasses/Sunglasses__3.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_14/p1.jpg",
+    "photos_neutral/item_14/p2.jpg",
+    "photos_neutral/item_14/p3.jpg"
+   ]
+  },
+  {
+   "id": "15",
+   "name": "Woman's purse 01 (XOXO)",
+   "slug": "Womans_purse_01",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "handbag/tote, woman's"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "black body with a repeating light-grey pattern"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "FIX",
+     "text": "pattern made of \"XOXO\" letters with circles and diamonds; brand reads XOXO"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "two black handles and a long black shoulder strap"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "gold-coloured hardware (zipper, clips, rings)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "gold \"XOXO\" logo plate centred on the front"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "zipper pockets: one vertical zipper pocket on the outer back face (gold teeth, gold pull with a small rectangular tab)"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "two sets of straps: short handles and a long detachable shoulder strap with gold swivel clasps and a buckle"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "main compartment opens along a centre zipper that runs between two stiff black leather-look flaps"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "the opening is not fully covered by the zipper (the flaps leave a gap)"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "HIS",
+     "text": "contents: black earbud/earphone case with black cable, a baby diaper with a cartoon bunny/animal print with pink hearts, a pink measuring tape with inch marks, a black-and-white snake-print scarf or pouch, printed papers/photos, a red small cap (marker or lipstick-like), a white tissue/paper"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "HIS",
+     "text": "pinkish-red / purple taints on the inside lining in places (lipstick-like)"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "HIS",
+     "text": "small open pocket inside the main compartment"
+    }
+   ],
+   "inferences": [
+    "something like a tiny book / black-and-white photographs / handkerchief"
+   ],
+   "known_false": [
+    "leather brown",
+    "brand Michael Kors",
+    "empty"
+   ],
+   "split": "dev",
+   "photos": [
+    "photos/Womans_purse_01/Womans_purse_01__1.jpg",
+    "photos/Womans_purse_01/Womans_purse_01__2.jpg",
+    "photos/Womans_purse_01/Womans_purse_01__3.jpg",
+    "photos/Womans_purse_01/Womans_purse_01__4.jpg",
+    "photos/Womans_purse_01/Womans_purse_01__5.jpg",
+    "photos/Womans_purse_01/Womans_purse_01__6.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_15/p1.jpg",
+    "photos_neutral/item_15/p2.jpg",
+    "photos_neutral/item_15/p3.jpg",
+    "photos_neutral/item_15/p4.jpg",
+    "photos_neutral/item_15/p5.jpg",
+    "photos_neutral/item_15/p6.jpg"
+   ]
+  },
+  {
+   "id": "16",
+   "name": "Women's purse 02 (Nanette Lepore)",
+   "slug": "Womens_purse_02",
+   "tags": [
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "handbag, woman's, brand Nanette Lepore"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "light-brown/tan: cream monogram body with a tan/cognac pebbled-leather flap and straps"
+    },
+    {
+     "tier": 1,
+     "weight": 1,
+     "source": "HIS",
+     "text": "looks new / well kept"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "ADD",
+     "text": "\"nanette lepore\" gold lettering with the monogram crest on the flap"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "one main compartment closed by a flap with a gold metal snap/button"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "two straps with pink-red enamel flower charm clips attached at the strap ends"
+    },
+    {
+     "tier": 2,
+     "weight": 2,
+     "source": "HIS",
+     "text": "large opening: the flap does not fully cover the pouch opening when buttoned"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "ADD",
+     "text": "a hang tag shaped like a monstera leaf with the \"nanette lepore\" label still attached, with two extra flower clips fastened to it"
+    },
+    {
+     "tier": 4,
+     "weight": 4,
+     "source": "HIS",
+     "text": "contents: dark sunglasses, a yellow mini Cetaphil sunscreen stick, a white tissue (napkin), a black cloth/pouch, a small tan card/wallet"
+    }
+   ],
+   "inferences": [
+    "more items not visible",
+    "black handkerchief"
+   ],
+   "known_false": [
+    "black",
+    "zipper closure",
+    "used/worn heavily"
+   ],
+   "split": "dev",
+   "photos": [
+    "photos/Womens_purse_02/Womens_purse_02__1.jpg",
+    "photos/Womens_purse_02/Womens_purse_02__2.jpg",
+    "photos/Womens_purse_02/Womens_purse_02__3.jpg"
+   ],
+   "tier_weights": {
+    "1": 1,
+    "2": 2,
+    "4": 4
+   },
+   "photos_neutral": [
+    "photos_neutral/item_16/p1.jpg",
+    "photos_neutral/item_16/p2.jpg",
+    "photos_neutral/item_16/p3.jpg"
+   ]
+  }
+ ],
+ "frozen_sha256_v1.2_source": "f94042d9a754ed86f661b9c4540258d57547d1df86d302d66c957ece8e62bba9",
+ "changelog": [
+  "v1.3 2026-10-11: item 12 tag 1 \"black display\" -> \"display on, showing a purple/blue gradient lock screen\" (v1.2 text contradicted its own lock-screen tag and the photo; found by judge-penalty audit). No other change."
+ ]
+}
